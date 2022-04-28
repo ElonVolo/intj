@@ -2,10 +2,14 @@
   "name": "intj",
   "version": "0.0.1",
   "description": "intj CLI",
-  "private": true,
+  "private": false,
   "types": "build/types/types.d.ts",
   "bin": {
     "intj": "bin/intj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elonvolo/intj.git"
   },
   "scripts": {
     "clean-build": "rm -rf ./build",
@@ -19,6 +23,12 @@
     "snapupdate": "jest --updateSnapshot",
     "coverage": "jest --coverage"
   },
+  "keywords": [
+    "indieops",
+    "monorepo",
+    "git",
+    "utility"
+  ],
   "files": [
     "build",
     "LICENSE",
